@@ -5,7 +5,7 @@ void porcento(int a,int p){
 	printf("porcento=%d",resut);
 }
 	int main(){
-            int op,a,p;
+            int op,a,p,bb;
 			printf("dite op\n");
 			scanf("%d",&op);
 			printf("dite num\n");
