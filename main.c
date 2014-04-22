@@ -4,6 +4,15 @@ void porcento(int a,int p){
 	resut=a*p/100;
 	printf("porcento=%d",resut);
 }
+
+int primo( int num){
+	int i;
+	for(i= 3; i < num-1; i++){
+		 if(num%i==0) return 0;
+	}
+	return 1;
+
+}
 	int main(){
             int op,a,p,bb;
 			printf("dite op\n");
@@ -18,6 +27,9 @@ void porcento(int a,int p){
                 break;
 				case 1:
 				//primo
+				if(primo(num)) printf("Primo!");
+				else  printf("Nao Primo!");
+				
 				break;
 				case 2:
 				//imprime primo
