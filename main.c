@@ -1,7 +1,7 @@
 #include <stdio.h>
 void porcento(int a,int p){
 	int resut;
-	resut=a*(p*100);
+	resut=a*p/100;
 	printf("porcento=%d",resut);
 }
 	int main(){
@@ -14,7 +14,7 @@ void porcento(int a,int p){
 			scanf("%d",&p);
             switch(op){
                 case 0:
-					
+                    porcento(a,p);
                 break;
 				case 1:
 				//primo
@@ -28,5 +28,5 @@ void porcento(int a,int p){
 
             }
 
-    }
+
 }
