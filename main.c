@@ -1,9 +1,19 @@
 #include <stdio.h>
+void porcento(int a,int p){
+	int resut;
+	resut=a*(p*100);
+	printf("porcento=%d",resut);
+}
 	int main(){
-            int op;
+            int op,a,p;
+			printf("dite op\n");
+			scanf("%d",&op);
+			printf("dite num\n");
+			scanf("%d",&a);
+			printf("dite porcento\n");
+			scanf("%d",&p);
             switch(op){
                 case 0:
-					System.out.println("digite num");
 					
                 break;
 				case 1:
